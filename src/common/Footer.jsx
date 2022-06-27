@@ -1,6 +1,6 @@
 import React from 'react'
 import { Container, Row, Col, Image } from 'react-bootstrap'
-import Logo from '../assets/images/Logo 1.png'
+import Logo from '../assets/images/collections/Icon 0-02.png'
 import Instagram from '../assets/images/instagram@2x.png'
 import Discord from '../assets/images/discord@2x.png'
 import Twitter from '../assets/images/twiter@2x.png'

@@ -4,7 +4,7 @@ import HeroBanner from '../../../assets/images/banner.jpg'
 import Instagram from '../../../assets/images/instagram@2x.png'
 import Discord from '../../../assets/images/discord@2x.png'
 import Twitter from '../../../assets/images/twiter@2x.png'
-import banner from '../../../assets/images/collections/Banner-01 (1).jpg'
+import banner from '../../../assets/images/collections/banner1.jpg'
 export default function Hero() {
     return (
         <>

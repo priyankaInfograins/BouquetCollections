@@ -1,18 +1,20 @@
 import React from 'react'
 import { Container, Navbar, Nav, Image } from 'react-bootstrap'
-import Logo1 from '../assets/images/Logo 1.png'
+import Logo1 from '../assets/images/collections/Icon 0-02.png'
 import Instagram2x from '../assets/images/instagram@2x.png'
 import Discord2x from '../assets/images/discord@2x.png'
 import Twitter2x from '../assets/images/twiter@2x.png'
 import {Link} from 'react-router-dom'
+
 export default function Header() {
+  
     return (
         <>
             <div className="home_Nav">
                 <Navbar bg="light" expand="lg">
                     <Container fluid style={{ alignItems: "center" }}>
                         <Navbar.Brand>
-                            <Link to="/"><Image src={Logo1} alt="CryptoBear Watch Club" fluid/></Link>
+                            <Link to="/" className='header_logo'><Image src={Logo1} alt="CryptoBear Watch Club" fluid/><span>Bouquet Collection</span></Link>
                         </Navbar.Brand>
                         <Navbar.Toggle aria-controls="navbarScroll" />
                         <Navbar.Collapse id="navbarScroll" className="justify-content-end">
